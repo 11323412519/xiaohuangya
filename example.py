@@ -12,6 +12,7 @@ from  Question_bank import  question_bank
 from  gaokao import  college_Entrance_Examination_Results
 from  Pets import  pets
 from  Gonggao import  gonggao
+from  exchange import exchange_v1
 with st.sidebar:
     file_ = open("./gif/112545-wumpus-hi.gif", "rb")
     contents = file_.read()
@@ -44,7 +45,8 @@ if add_selectbox=="宠物系统":
     pets()
 if add_selectbox=="处罚、通知、警告系统":
     gonggao()
-
+if add_selectbox=="学习之星兑换系统":
+    exchange_v1()
 
 
 

@@ -64,7 +64,7 @@ def add_score():
             st.stop()
         st.success('✅' + "输入合法")
         if use == "何向东":
-            if password == "000000":
+            if password == "00000000":
                 path = 'txt/hxd.txt'
                 with open(path,encoding='utf8') as f1:
                     cNames = f1.readlines()
@@ -78,7 +78,7 @@ def add_score():
                 e = RuntimeError('密码错误')
                 st.exception(e)
         elif use == "朱奕":
-            if password == "000000":
+            if password == "111111111":
                 path = 'txt/zy.txt'
                 with open(path,encoding='utf8') as f1:
                     cNames = f1.readlines()

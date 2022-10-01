@@ -30,10 +30,10 @@ def zy():
 
     col1, col2, col3 = st.columns(3)
     with col1:
-        title = st.text_input('QQ', '')
+        title = st.text_input('QQ', '2384592258')
 
     with col2:
-        title = st.text_input('手机号', '')
+        title = st.text_input('手机号', '15680335885')
 
     with col3:
         title = st.text_input('年级', '高一')
@@ -43,7 +43,7 @@ def zy():
         title = st.text_input('学习之星', '1颗')
 
     with col2:
-        title = st.text_input('热力值', '98')
+        title = st.text_input('热力值', '60')
 
     with col3:
         title = st.text_input('学习状态', '正常')
